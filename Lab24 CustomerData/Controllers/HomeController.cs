@@ -13,18 +13,20 @@ namespace Lab24_CustomerData.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Add()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Delete()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
+
+        public ActionResult Modify()
+        {
+            return View();
+        }
+
     }
 }
